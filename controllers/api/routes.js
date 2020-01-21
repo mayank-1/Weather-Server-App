@@ -20,7 +20,7 @@ weatherServer.get("/:zipcode?", (req, res) => {
         res.send(data.data);
       })
       .catch(err => {
-        res.send("<b>OOPS!</b> INVALID ZIP CODE");
+        res.send("INVALID");
       });
   } else {
     res.send("Welcome To Weather App - WebService");
