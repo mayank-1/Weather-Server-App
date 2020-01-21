@@ -27,4 +27,7 @@ weatherServer.get("/:zipcode?", (req, res) => {
   }
 });
 
+weatherServer.post("/bulk", (req, res) => {
+  console.log(req.query.zips);
+});
 module.exports = weatherServer;
