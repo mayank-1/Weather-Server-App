@@ -7,7 +7,7 @@ This Server handles `TWO API` Requests:
 - Accepts Bulk `ZIP CODE` in `POST` request and returns the weather data for the all the zipcodes using Route: `/bulk`.         Example for this is `localhost:9000/bulk?zips=10001&zips=390013,in&zips=77001` using `POSTMAN` send a `POST` request with multiple value and same key to get the `JSON` response
 
 By default it will accept zipcodes for `US` only. If you want to find weather of your location, then call like this:
-- `https://weather-server-app.herokuapp.com/390013,in` or in local `localhost:9000/390001,in` here value is `zipcode,counntrycode`.  
+- `https://weather-server-app.herokuapp.com/390001,in` or in local `localhost:9000/390001,in` here value is `zipcode,counntrycode`.  
   
  
 To run the app, follow this:
